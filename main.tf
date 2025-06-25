@@ -79,7 +79,7 @@ module "kms" {
   source             = "terraform-google-modules/kms/google"
   version            = "2.2.3"
   project_id         = var.GOOGLE_PROJECT
-  keyring            = "sops-flux5"
+  keyring            = "sops-flux1"
   location           = "global"
   keys               = ["sops-key-flux"]
   prevent_destroy    = false
