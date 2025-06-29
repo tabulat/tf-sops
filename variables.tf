@@ -21,7 +21,7 @@ variable "GITHUB_TOKEN" {
 
 variable "FLUX_GITHUB_REPO" {
   type        = string
-  default     = "fl-gitops"
+  default     = "flu-gitops"
   description = "Flux GitOps repository"
 }
 
